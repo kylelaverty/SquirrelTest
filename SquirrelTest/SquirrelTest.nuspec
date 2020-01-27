@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>QAP_Cient</id>
+    <title>QAP Client</title>
+    <version>1.0.0</version>
+    <authors>QAP</authors>
+    <owners>QAP</owners>
+    <description>QAP - Client</description>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <copyright>Copyright © 2020</copyright>
+    <dependencies>
+      <group targetFramework=".NETFramework4.5" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="bin\Release\*.*" target="lib\net45\" exclude="*.pdb;*.vshost.*"/>
+  </files>
+</package>
